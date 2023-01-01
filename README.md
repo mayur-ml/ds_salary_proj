@@ -8,4 +8,6 @@ Article     >> https://mersakarya.medium.com/selenium-tutorial-scraping-glassdoo
 
 Github repo >> https://github.com/arapfaik/scraping-glassdoor-selenium
 
-youtube link for project guidence >> https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+youtube link for project guidence by Ken Jee >> https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
+
+Ken Jee's GitHub Profile >>> https://github.com/PlayingNumbers
