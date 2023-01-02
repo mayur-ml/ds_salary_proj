@@ -12,17 +12,17 @@
 
 ## Code and Resources Used
 
-Python Version: 3.9
+__Python Version:__ 3.9
 
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+__Packages:__ pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
 
-For Web Framework Requirements: #pip install -r requirements.txt
+__For Web Framework Requirements:__ # `pip install -r requirements.txt`
 
-Scraper Github: https://github.com/arapfaik/scraping-glassdoor-selenium
+__Scraper Github:__ https://github.com/arapfaik/scraping-glassdoor-selenium
 
-Scraper Article: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
+__Scraper Article:__ https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
 
-Flask Productionization: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+__Flask Productionization:__ https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## YouTube Project Walk-Through by Ken Jee >> 
 
