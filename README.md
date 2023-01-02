@@ -103,7 +103,41 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
-alt text alt text alt text
+
+
+
+![company revenue and jobs salary](https://user-images.githubusercontent.com/108168115/210273321-e541be50-6570-4e3f-81e2-fcd4539435ff.png)
+
+![Salary and company age](https://user-images.githubusercontent.com/108168115/210273328-597d39e8-d8e2-446f-842e-f83605946d3b.png)
+
+![state jobs](https://user-images.githubusercontent.com/108168115/210273329-3a69a5d3-e07d-4677-82cb-95710f47959d.png)
+
+![avarage job salary](https://user-images.githubusercontent.com/108168115/210273332-876911cc-58f8-4623-9d2e-e1d17c592712.png)
+
+
+
+### skills required 1 yes 0 for no Python Excel AWS
+
+
+
+
+![AWS requirments](https://user-images.githubusercontent.com/108168115/210273333-cee82d26-34da-4b17-a1f6-f756f5f5e9f5.png)
+
+![Excel requirments](https://user-images.githubusercontent.com/108168115/210273323-1a79da2a-5a57-464f-a7fd-a41b7d1bd72a.png)
+
+![Python requirments](https://user-images.githubusercontent.com/108168115/210273326-7891b6a3-a551-40a8-8e41-3aaa6b1b6066.png)
+
+
+
+### word cloud of job description 
+
+
+
+
+![word cloud fpr job description](https://user-images.githubusercontent.com/108168115/210273330-6828201d-0a18-44a7-b27b-cd0420b62f99.png)
+
+
+
 
 ## Model Building
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
@@ -114,21 +148,42 @@ bad in for this type of model.
 
 ### I tried three different models:
 
-Multiple Linear Regression – Baseline for the model 
+* Multiple Linear Regression – Baseline for the model 
 
-Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+* Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 
-Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+* Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
-Model performance
+## Model performance
 
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
-Random Forest : MAE = 3919437.2410207116
+* Random Forest : MAE = 11.120102768456377
 
-Linear Regression: MAE = 19.66540217867269
+* Linear Regression: MAE = 3919437.2410207116 # 
 
-Ridge Regression: MAE = 11.120102768456377
+* Ridge Regression: MAE = 11.120102768456377
 
-# Productionization
+## Productionization
+
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
+
+
+
+
+
+## Extras
+
+### how to format README 
+
+https://github.com/tchapi/markdown-cheatsheet
+
+### how to add images in README 
+
+guid >> https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
+
+### how to add emoji 
+
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+
