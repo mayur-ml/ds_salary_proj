@@ -28,12 +28,12 @@ Flask Productionization: https://towardsdatascience.com/productionize-a-machine-
 
  YouTube >> https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 
-Ken Jee's GitHub Profile >>> https://github.com/PlayingNumbers
+__Ken Jee's__ GitHub Profile >>> https://github.com/PlayingNumbers
 
-:heart: :heart: :heart: And big Thank you to Ken Jee  > this is my First end to end project 😊 :blush: :heart: :heart: :heart:
+__:heart: :heart: :heart: And big Thank you to Ken Jee  > this is my First end to end project 😊 :blush: :heart: :heart: :heart:__
 
 
-Web Scraping
+## Web Scraping
 
 Tweaked the web scraper github repo (above) to scrape 1000 job postings from glassdoor.com. With each job, we got the following:
 
@@ -116,7 +116,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 
 
-### skills required 1 yes 0 for no Python Excel AWS
+### skills required 1 yes 0 for no  Python  Excel  AWS
 
 
 
@@ -148,21 +148,21 @@ bad in for this type of model.
 
 ### I tried three different models:
 
-* Multiple Linear Regression – Baseline for the model 
+*  __Multiple Linear Regression__ – Baseline for the model 
 
-* Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+* __Lasso Regression__ – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
 
-* Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+* __Random Forest__ – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 ## Model performance
 
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
-* Random Forest : MAE = 11.120102768456377
+* __Random Forest__ : MAE = 11.120102768456377
 
-* Linear Regression: MAE = 3919437.2410207116 # 
+* __Linear Regression__: MAE = 3919437.2410207116 # 
 
-* Ridge Regression: MAE = 11.120102768456377
+* __Ridge Regression__ : MAE = 11.120102768456377
 
 ## Productionization
 
@@ -172,17 +172,19 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 
 
-## Extras
+## Extras Guid
 
-### how to format README 
+#### how to format README 
 
 https://github.com/tchapi/markdown-cheatsheet
 
-### how to add images in README 
+#### how to add images in README 
 
 guid >> https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 
-### how to add emoji 
+#### how to add emoji 
+
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 
 https://www.webfx.com/tools/emoji-cheat-sheet/
 
