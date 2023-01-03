@@ -172,7 +172,7 @@ In this step, I built a flask API endpoint that was hosted on a local webserver 
 
 
 
-## Extras Guid
+## Extras Guide
 
 #### how to format README 
 
@@ -180,7 +180,7 @@ https://github.com/tchapi/markdown-cheatsheet
 
 #### how to add images in README 
 
-guid >> https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
+guide >> https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 
 #### how to add emoji 
 
